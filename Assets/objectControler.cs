@@ -6,6 +6,8 @@ public class objectControler : MonoBehaviour
 {
     public Vector3 movementVector;
 
+    public float xSpeed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +19,8 @@ public class objectControler : MonoBehaviour
     {
         if (transform.position.x < 8)
         {
-            transform.position += movementVector;
+            //transform.position += movementVector;
+            transform.position += new Vector3(xSpeed, 0, 0);
         }
         
     }

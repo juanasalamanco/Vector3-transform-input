@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementVector: {x: 0.1, y: 0, z: 0}
+  xSpeed: 0.1
 --- !u!65 &1083145976
 BoxCollider:
   m_ObjectHideFlags: 0
